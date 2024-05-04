@@ -1,0 +1,12 @@
+git_server: 
+  group_url: http://gitlab.xxxx.com/yyyy
+  user: oauth2
+  access_token: <access_token>
+  repositories:
+    - name: <name>
+      directory: <directory>
+      reload_url: <reload_url>
+promci_app:
+  access_token: <access_token>
+  log_file: C:/test/promci.log
+
